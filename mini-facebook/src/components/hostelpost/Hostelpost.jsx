@@ -3,7 +3,7 @@ import "./hostelpost.css";
 
 export default function Hostelpost({post}) {
   const PF = "http://localhost:5000/images/";
-  const imglink = "http://localhost:9000/mybucket/";
+  const imglink = "http://localhost:5000/api/getstory/";
   return (
     <div className="post">
       
